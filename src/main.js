@@ -10,5 +10,5 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas)
 
 
-axios.defaults.baseURL = 'https://128.199.181.20'
+axios.defaults.baseURL = 'http://128.199.181.20'
 createApp(App).use(store).use(router).mount('#app')

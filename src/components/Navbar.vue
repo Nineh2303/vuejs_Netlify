@@ -70,8 +70,8 @@ export default {
   mounted() {
 
       this.$store.dispatch("getCategoriesAndProducts");
-      if(this.$store.state.Auth.isLoggedIn !=null){
-      this.$store.dispatch("getCart")
+      if(this.$store.state.Auth.currentUser !=null){
+          this.$store.dispatch("getCart")
       }
 
   },
