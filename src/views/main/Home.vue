@@ -1,4 +1,5 @@
 <template>
+  <Header/>
   <section class="product">
     <h2 class="product-category">Newest</h2>
     <button class="pre-btn">
@@ -23,6 +24,7 @@
 <script>
 import ProductCard from "../../components/ProductCard.vue";
 import Collection from "../../components/Collection.vue";
+import Header from "../../components/Header.vue";
 
 import "../../assets/js/home.js";
 export default {
@@ -30,6 +32,7 @@ export default {
   components: {
     ProductCard,
     Collection,
+    Header
   },
   mounted() {
     this.homeContainer();

@@ -62,6 +62,8 @@ export default {
   },
   methods: {
     addToCart() {
+      if (this.$store.state.Auth.isLoggedIn== true)
+      {
       const item = {
         product: this.product,
         quantity: this.quantity,
@@ -78,7 +80,16 @@ export default {
                     msg: "Somthing went wrong, please try again !!",
                     route: "#",
                             });
-            }  
+            }
+      }  
+      else {
+              return this.$store.dispatch("setPopUp", {
+                    msg: "Let's login to continue",
+                    route: "#",
+                            });
+                          
+                    
+      }
     },
   },
 };
