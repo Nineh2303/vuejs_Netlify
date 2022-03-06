@@ -1,8 +1,7 @@
 <template>
   <header class="hero-section">
     <div class="content">
-      <img src="../assets/img/hey.png" class="logo" alt="">
-      <p class="sub-heading">Shit content for you</p>
+      <p class="sub-heading">Best Moments For You</p>
     </div>
   </header>
 </template>

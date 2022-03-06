@@ -10,8 +10,9 @@
 
 .hero-section {
     width: 100%;
+    height :500px;
     height: calc(100vh-120px);
-    background-image: url("../img/header.png");
+    background-image: url("../img/home.jpeg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -25,11 +26,11 @@
 }
 
 .hero-section .sub-heading {
-    margin-top: 10px;
+    margin-top: 400px;
     text-align: center;
     color: #fff;
     text-transform: capitalize;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: 300;
 }
 
